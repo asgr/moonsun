@@ -1,5 +1,5 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
+exportPattern("^[[:alpha:]]+")
 
-# Export all names
-exportPattern(".")
+importFrom("graphics", "abline", "axTicks", "axis", "box", "lines",
+               "matplot", "par", "points", "text", "title")
+    importFrom("stats", "na.omit")
